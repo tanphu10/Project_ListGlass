@@ -1,0 +1,42 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+/* .container {
+  background-image: url{./glassesImage/background.jpg}
+} */
+.banner {
+  position: relative;
+  text-align: center;
+  width: 100%;
+}
+.anhKinh {
+  position: absolute;
+  top: 100px;
+  right: 0;
+  left: 0;
+  text-align: center;
+  /* width: 80%; */
+}
+.row img {
+  width: 30%;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+ 
+}
+.row button {
+  border: none;
+  transition: all 0.5s;
+}
+.row button:hover {
+  border: 1px solid orangered;
+}
+.background {
+  position: absolute;
+  bottom: 120px;
+  top: 450px;
+  left: 0;
+  right: 0;
+  background-color: #da990e69;
+  margin: 0 320px;
+}
